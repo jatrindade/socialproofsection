@@ -1,0 +1,83 @@
+body {
+  background-image:url("bg-pattern-bottom-desktop.svg");
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  padding: 100px;
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  width: 35%;
+  font-weight: 700;
+  font-size: 3rem;
+}
+h4 {
+  color: hsl(333, 80%, 67%);
+
+}
+h5 {
+  color:hsl(303, 10%, 53%);
+  font-weight:700;
+  width: 40%;
+  line-height: 2;
+}
+img {
+  border-radius: 50%;
+}
+p {
+  color:hsl(300, 24%, 96%);
+}
+
+.names {
+  color: hsl(0, 0%, 100%);
+}
+.reviews {
+  background: hsl(300, 43%, 22%);
+  width: 20%;
+  border-radius: 5%;
+}
+.reviews-container {
+  position: relative;
+  height: 400px;
+  margin: 50px auto;
+}
+.review1 {
+  position: absolute;
+  left: 5%;
+  padding: 20px;
+}
+.review2 {
+  position: absolute;
+  left: 30%;
+  top: 20px;
+  padding: 20px;
+
+}
+.review3 {
+  position: absolute;
+  left: 55%;
+  top: 40px;
+  padding: 20px;
+}
+.stars {
+  background:hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5%;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.stars-container {
+  position: absolute;
+  top: 130px;
+  right: 200px;
+}
+.stars2 {
+  position: relative;
+  left: 20px;
+}
+.stars3 {
+  position: relative;
+  left: 40px;
+}
